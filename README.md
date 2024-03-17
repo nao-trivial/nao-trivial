@@ -33,4 +33,4 @@ Se você está interessado em contribuir para o projeto Não Trivial, sinta-se �
 
 ## Contato 📧
 
-Para mais informações, sugestões ou parcerias, entre em contato conosco através do nosso Instagram [@nao.trivial](https://www.instagram.com/nao.trivial/).
+Para mais informações, sugestões ou parcerias, entre em contato conosco através do nosso Instagram [@nao_trivial](https://www.instagram.com/nao_trivial/).
