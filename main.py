@@ -55,13 +55,49 @@ def visualizar_posts():
     except ValueError:
         print("ID inválido.")
 
+# Função para listar subtópicos de um tópico ou nomes de posts de um subtópico
+def listar_subtopicos_ou_posts():
+    print("\n--- Listar Subtópicos ou Nomes de Posts ---")
+    print("1. Listar todos os subtópicos dentro de um tópico")
+    print("2. Listar todos os nomes de posts dentro de um subtópico")
+    
+    escolha = input("Escolha uma opção: ")
+    
+    if escolha == '1':
+        topico = input("Digite o Tópico: ")
+        cursor.execute("SELECT DISTINCT subtopico FROM posts WHERE topico = ?", (topico,))
+        subtropicos = cursor.fetchall()
+        
+        if subtropicos:
+            print(f"\nSubtópicos no tópico '{topico}':")
+            for subtropico in subtropicos:
+                print(f"- {subtropico[0]}")
+        else:
+            print(f"Nenhum subtópico encontrado para o tópico '{topico}'.")
+    
+    elif escolha == '2':
+        subtopico = input("Digite o Subtópico: ")
+        cursor.execute("SELECT nome_post FROM posts WHERE subtopico = ?", (subtopico,))
+        nomes_posts = cursor.fetchall()
+        
+        if nomes_posts:
+            print(f"\nNomes dos posts no subtópico '{subtopico}':")
+            for nome_post in nomes_posts:
+                print(f"- {nome_post[0]}")
+        else:
+            print(f"Nenhum post encontrado para o subtópico '{subtopico}'.")
+    
+    else:
+        print("Opção inválida.")
+
 # Função para exibir o menu e inserir posts
 def menu_insercao():
     while True:
         print("\n--- Menu de Inserção de Posts ---")
         print("1. Inserir novo post")
         print("2. Visualizar post")
-        print("3. Sair")
+        print("3. Listar subtópicos ou nomes de posts")
+        print("4. Sair")
         
         escolha = input("Escolha uma opção: ")
         
@@ -89,6 +125,9 @@ def menu_insercao():
             visualizar_posts()
         
         elif escolha == '3':
+            listar_subtopicos_ou_posts()
+        
+        elif escolha == '4':
             print("Saindo do programa.")
             break
         
