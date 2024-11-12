@@ -1,96 +1,5 @@
-import sqlite3
+from engine import inserir_post, visualizar_posts, visualizar_link_ou_legenda, listar_subtopicos_ou_posts, fechar_conexao
 
-# Conecta ao banco de dados (ou cria um novo se não existir)
-conn = sqlite3.connect('posts_instagram.db')
-cursor = conn.cursor()
-
-# Função para inserir um novo post
-def inserir_post(topico, subtopico, nome_post, link_canva, legenda):
-    cursor.execute('''
-        INSERT INTO posts (topico, subtopico, nome_post, link_canva, legenda)
-        VALUES (?, ?, ?, ?, ?)
-    ''', (topico, subtopico, nome_post, link_canva, legenda))
-    conn.commit()
-
-# Função para visualizar posts
-def visualizar_posts():
-    cursor.execute("SELECT id, topico, subtopico, nome_post FROM posts")
-    posts = cursor.fetchall()
-    
-    if not posts:
-        print("\nNenhum post encontrado.")
-        return
-    
-    print("\n--- Posts Cadastrados ---")
-    for post in posts:
-        print(f"ID: {post[0]} | Tópico: {post[1]} | Subtópico: {post[2]} | Nome do Post: {post[3]}")
-    
-    try:
-        post_id = int(input("\nDigite o ID do post que deseja visualizar ou 0 para voltar: "))
-        if post_id == 0:
-            return
-        
-        # Opção de exibição de link ou legenda
-        escolha_visualizacao = input("Digite '1' para visualizar o link ou '2' para visualizar a legenda: ")
-        
-        if escolha_visualizacao == '1':
-            cursor.execute("SELECT link_canva FROM posts WHERE id = ?", (post_id,))
-            link = cursor.fetchone()
-            if link:
-                print(f"\nLink do Canva: {link[0]}")
-            else:
-                print("Post não encontrado.")
-        
-        elif escolha_visualizacao == '2':
-            cursor.execute("SELECT legenda FROM posts WHERE id = ?", (post_id,))
-            legenda = cursor.fetchone()
-            if legenda:
-                print(f"\nLegenda do Post:\n{legenda[0]}")
-            else:
-                print("Post não encontrado.")
-        
-        else:
-            print("Opção inválida.")
-    
-    except ValueError:
-        print("ID inválido.")
-
-# Função para listar subtópicos de um tópico ou nomes de posts de um subtópico
-def listar_subtopicos_ou_posts():
-    print("\n--- Listar Subtópicos ou Nomes de Posts ---")
-    print("1. Listar todos os subtópicos dentro de um tópico")
-    print("2. Listar todos os nomes de posts dentro de um subtópico")
-    
-    escolha = input("Escolha uma opção: ")
-    
-    if escolha == '1':
-        topico = input("Digite o Tópico: ")
-        cursor.execute("SELECT DISTINCT subtopico FROM posts WHERE topico = ?", (topico,))
-        subtropicos = cursor.fetchall()
-        
-        if subtropicos:
-            print(f"\nSubtópicos no tópico '{topico}':")
-            for subtropico in subtropicos:
-                print(f"- {subtropico[0]}")
-        else:
-            print(f"Nenhum subtópico encontrado para o tópico '{topico}'.")
-    
-    elif escolha == '2':
-        subtopico = input("Digite o Subtópico: ")
-        cursor.execute("SELECT nome_post FROM posts WHERE subtopico = ?", (subtopico,))
-        nomes_posts = cursor.fetchall()
-        
-        if nomes_posts:
-            print(f"\nNomes dos posts no subtópico '{subtopico}':")
-            for nome_post in nomes_posts:
-                print(f"- {nome_post[0]}")
-        else:
-            print(f"Nenhum post encontrado para o subtópico '{subtopico}'.")
-    
-    else:
-        print("Opção inválida.")
-
-# Função para exibir o menu e inserir posts
 def menu_insercao():
     while True:
         print("\n--- Menu de Inserção de Posts ---")
@@ -102,14 +11,12 @@ def menu_insercao():
         escolha = input("Escolha uma opção: ")
         
         if escolha == '1':
-            # Coleta dados do usuário
             topico = input("Digite o Tópico: ")
             subtopico = input("Digite o Subtópico: ")
             nome_post = input("Digite o Nome do Post: ")
             link_canva = input("Digite o Link do Post no Canva: ")
             print("Digite a Legenda do Post (finalize com uma linha vazia): ")
             
-            # Coleta a legenda com múltiplas linhas
             legenda = ""
             while True:
                 linha = input()
@@ -117,18 +24,54 @@ def menu_insercao():
                     break
                 legenda += linha + "\n"
             
-            # Insere o post no banco de dados
             inserir_post(topico, subtopico, nome_post, link_canva, legenda)
             print("\nPost inserido com sucesso!")
         
         elif escolha == '2':
-            visualizar_posts()
+            posts = visualizar_posts()
+            if not posts:
+                print("\nNenhum post encontrado.")
+                continue
+            
+            print("\n--- Posts Cadastrados ---")
+            for post in posts:
+                print(f"ID: {post[0]} | Tópico: {post[1]} | Subtópico: {post[2]} | Nome do Post: {post[3]}")
+            
+            try:
+                post_id = int(input("\nDigite o ID do post que deseja visualizar ou 0 para voltar: "))
+                if post_id == 0:
+                    continue
+                
+                escolha_visualizacao = input("Digite '1' para visualizar o link ou '2' para visualizar a legenda: ")
+                resultado = visualizar_link_ou_legenda(post_id, escolha_visualizacao)
+                
+                if resultado:
+                    print(f"\n{('Link do Canva' if escolha_visualizacao == '1' else 'Legenda do Post')}: {resultado[0]}")
+                else:
+                    print("Post não encontrado.")
+            
+            except ValueError:
+                print("ID inválido.")
         
         elif escolha == '3':
-            listar_subtopicos_ou_posts()
+            print("\n--- Listar Subtópicos ou Nomes de Posts ---")
+            print("1. Listar todos os subtópicos dentro de um tópico")
+            print("2. Listar todos os nomes de posts dentro de um subtópico")
+            
+            opcao_listagem = input("Escolha uma opção: ")
+            termo = input("Digite o Tópico ou Subtópico: ")
+            resultados = listar_subtopicos_ou_posts(opcao_listagem, termo)
+            
+            if resultados:
+                print(f"\nResultados para '{termo}':")
+                for resultado in resultados:
+                    print(f"- {resultado[0]}")
+            else:
+                print(f"Nenhum resultado encontrado para '{termo}'.")
         
         elif escolha == '4':
             print("Saindo do programa.")
+            fechar_conexao()
             break
         
         else:
@@ -136,6 +79,3 @@ def menu_insercao():
 
 # Executa o menu de inserção
 menu_insercao()
-
-# Fecha a conexão com o banco de dados ao final do programa
-conn.close()
