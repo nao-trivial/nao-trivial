@@ -4,6 +4,8 @@
 
 ## Mecânica Analítica
 
+- Teorema de Noether
+
 ## Termodinâmica
 
 - Entropia
