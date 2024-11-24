@@ -35,10 +35,10 @@
 
 # Álgebra
 
-## Álgebra LINEAR
+## Álgebra Linear
 
 - Delta de Kronecker
-- 
+- Multiplicação de Matrizes
 
 ## Notação
 
@@ -53,6 +53,7 @@
 - Sequências de Cauchy
 - Toda sequência monótono limitada converge.
 - Bolzano-Weierstrass: Toda sequência limitada de números reais possui uma subsequencia convergente
+- Sequência de Fibonacci
 
 ## Limites
 
