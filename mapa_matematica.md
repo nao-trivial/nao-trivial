@@ -9,10 +9,8 @@
 
 - Definição
 - Propriedades
-- Introdução
-- 
-
-#
+- Introdução: Parte 1
+- Introdução: Parte 2
 
 # Topologia
 
@@ -29,6 +27,11 @@
 ## Limites
 
 - Constante de Euler-Mascheroni
+
+## Integral
+
+- Integração por Partes
+- 
 
 ## Equações Diferenciais
 
