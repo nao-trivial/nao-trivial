@@ -26,6 +26,7 @@
 - Conjunto de Galileu
 - Todo Subconjunto de números naturais é enumeravel
 - Um Subconjunto de números naturais é finito se e somente se e limitado
+- Seja f e g bijeções de conjuntos próprios em X. Os conjuntos próprios possuem a mesma cardinalidade
 
 ## Números Racionais
 
