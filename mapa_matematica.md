@@ -18,6 +18,7 @@
 - Introdução
 - Subconjunto
 - Conjunto de Galileu 
+- Cortes de Dedekind
 
 # Análise
 
