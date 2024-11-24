@@ -4,7 +4,12 @@
 
 ## Termodinâmica
 
+- *1⁰ Lei*
 - 2⁰ Lei
+
+## Eletromagnetismo
+
+- Velocidade da Luz no Vácuo
 
 # Física Moderna
 
