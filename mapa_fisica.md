@@ -7,6 +7,7 @@
 - Princípio da Mínima Ação
 - Equações de Euler-Lagrange
 - Teorema de Noether
+- O Problema da Braquistocrona
 
 ## Termodinâmica
 
