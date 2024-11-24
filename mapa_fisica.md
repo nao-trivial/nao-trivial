@@ -36,6 +36,7 @@
 - Princípio da Equivalência
 - Soma de Einstein
 - Tensor de Riemann
+- Símbolo de Christoffel
 
 ## Mecânica Quântica
 
