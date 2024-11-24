@@ -34,6 +34,7 @@
 - Geometria Não-Euclidiana
 - Princípio da Mínima Ação
 - Soma de Einstein
+- Tensor de Riemann
 
 ## Mecânica Quântica
 
