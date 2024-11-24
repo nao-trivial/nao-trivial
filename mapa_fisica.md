@@ -40,6 +40,10 @@
 
 - Princípio da Incerteza
 
+### Partículas Fundamentais
+
+- Fermions
+
 ## Teoria do Caos
 
 - Equação Logística
