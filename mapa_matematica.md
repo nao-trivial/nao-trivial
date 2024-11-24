@@ -51,6 +51,10 @@
 
 # Álgebra
 
+## Aritmética
+
+- Papiro de Rhind
+
 ## Álgebra Linear
 
 - Delta de Kronecker
