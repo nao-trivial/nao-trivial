@@ -62,6 +62,7 @@
 
 - Intervalos Encaixados
 - Todo intervalo não-degenerado contém números racionais e irracionais
+- Um Subconjunto de \mathbb{R} é um intervalo se e somente se for um intervalo
 - Ponto Fixo das Contrações 
 
 # Álgebra
