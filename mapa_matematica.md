@@ -28,10 +28,14 @@
 
 - Constante de Euler-Mascheroni
 
+## Derivadas
+
+- Taxas de Variação
+
 ## Integral
 
+- Soma de Riemann
 - Integração por Partes
-- 
 
 ## Equações Diferenciais
 
