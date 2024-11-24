@@ -11,6 +11,8 @@
 
 ### Pêndulo 
 
+- com Suporte Livre
+
 ## Termodinâmica
 
 - *Lei Zero*
