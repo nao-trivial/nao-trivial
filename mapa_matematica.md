@@ -2,6 +2,11 @@
 
 - 
 
+# Topologia
+
+- Intervalos Encaixados
+- Intervalo Não-Degenerado
+
 # Cálculo 
 
 ## Sequências
