@@ -48,6 +48,7 @@
 - Números Transfinitos
 - Cortes de Dedekind
 - Números Reais
+- Intervalo
 
 
 # Análise
