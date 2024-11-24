@@ -39,6 +39,7 @@
 ## Mecânica Quântica
 
 - Princípio da Incerteza
+- Matrizes de Pauli
 
 ### Partículas Fundamentais
 
