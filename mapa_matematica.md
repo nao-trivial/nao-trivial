@@ -1,3 +1,7 @@
+# Geometria
+
+- Postulados de Euclides
+
 # Teoria dos Conjuntos
 
 ## Princípio da Indução
@@ -9,8 +13,8 @@
 
 - Definição
 - Propriedades
-- Introdução: Parte 1
-- Introdução: Parte 2
+- Introdução
+- Subconjunto
 - Conjunto de Galileu 
 
 # Topologia
