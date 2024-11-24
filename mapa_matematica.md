@@ -18,7 +18,13 @@
 - Subconjunto
 - Conjunto de Galileu 
 
-# Topologia
+# Análise
+
+## Teoria dos Números
+
+- Representação de Base
+
+## Topologia
 
 - Intervalos Encaixados
 - Intervalo Não-Degenerado
@@ -56,13 +62,13 @@
 
 - Definição 
 - Propriedades
-- 
 
 ## Integral
 
 - Soma de Riemann
 - Integração por Partes
 - Integrais de Euler
+- Mudanças de Variáveis
 
 ## Equações Diferenciais
 
