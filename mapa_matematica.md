@@ -11,6 +11,7 @@
 - Propriedades
 - Introdução: Parte 1
 - Introdução: Parte 2
+- Conjunto de Galileu 
 
 # Topologia
 
