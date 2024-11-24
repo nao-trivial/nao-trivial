@@ -4,6 +4,7 @@
 
 ## Termodinâmica
 
+- Entropia
 - *1⁰ Lei*
 - 2⁰ Lei
 
@@ -21,7 +22,7 @@
 - Postulados de Einstein
 - *Transformação de Lorentz*
 - Contração do Espaço 
-- Dilatação do Tempo
+- Dilatação do ☀️ 
 
 ### Relatividade Geral
 
