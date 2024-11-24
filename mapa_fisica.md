@@ -8,9 +8,10 @@
 
 ## Termodinâmica
 
-- Entropia
+- *Lei Zero*
 - *1⁰ Lei*
 - 2⁰ Lei
+- Entropia
 
 ## Eletromagnetismo
 
