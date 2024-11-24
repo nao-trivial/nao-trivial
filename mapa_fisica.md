@@ -53,6 +53,7 @@
 
 - Princípio da Incerteza
 - Matrizes de Pauli
+- Equações de Schrodinger
 
 ## Física de Partículas
 
