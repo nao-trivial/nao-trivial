@@ -25,13 +25,17 @@
 
 #### Finitos
 
-- Conjunto de Galileu
 - Todo Subconjunto de números naturais é enumeravel
 - Um Subconjunto de números naturais é finito se e somente se e limitado
 - Seja f e g bijeções de conjuntos próprios em X. Os conjuntos próprios possuem a mesma cardinalidade
-- O produto cartesiano de conjuntos Enumeraveis é enumeravel
 - Se f é sobrejetiva, se o domínio é enumeravel então o contra-dominio também é
 - Se f é injetora, se o contra-dominio é enumeravel então o domínio também é 
+
+#### Infinitos
+
+- Conjunto de Galileu
+- O produto cartesiano de conjuntos Enumeraveis é enumeravel
+- Se X é um conjunto infinito então existe uma aplicação injetora f dos naturais em X
 
 ## Números Racionais
 
