@@ -50,6 +50,7 @@
 - Soma de Einstein
 - Tensor de Riemann
 - Símbolo de Christoffel
+- Equações de Einstein 
 
 ## Mecânica Quântica
 
