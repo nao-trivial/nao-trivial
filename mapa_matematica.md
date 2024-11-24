@@ -31,6 +31,7 @@
 - Seja f e g bijeções de conjuntos próprios em X. Os conjuntos próprios possuem a mesma cardinalidade
 - Se f é sobrejetiva, se o domínio é enumeravel então o contra-dominio também é
 - Se f é injetora, se o contra-dominio é enumeravel então o domínio também é 
+- Se X é finito. Uma aplicação X em X é injetora se e somente se também é sobrejetiva
 
 #### Infinitos
 
