@@ -1,6 +1,8 @@
 # Física Clássica
 
-## Mecânica
+## Mecânica Clássica
+
+## Mecânica Analítica
 
 ## Termodinâmica
 
