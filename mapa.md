@@ -1,4 +1,6 @@
-# Relatividade Especial
+# Relatividade
+
+## Relatividade Especial
 
 - Princípio da Relatividade
 - Postulados de Einstein
@@ -6,3 +8,7 @@
 - Contração do Espaço 
 - Dilatação do Tempo
 
+## Relatividade Geral
+
+- Geometria Não-Euclidiana
+- Princípio da Mínima Ação
