@@ -70,3 +70,6 @@
 
 ## Física Nuclear
 
+- Fissão Nuclear 
+- Fusão Nuclear
+
