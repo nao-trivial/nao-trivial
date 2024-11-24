@@ -20,6 +20,8 @@
 - Conjunto de Galileu 
 - Cortes de Dedekind
 - Método da Diagonal
+- Números Transfinitos
+- Todo Subconjunto de números naturais é enumeravel
 
 # Análise
 
