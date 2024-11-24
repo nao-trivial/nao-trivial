@@ -80,6 +80,8 @@
 
 - Constante de Euler-Mascheroni
 
+### Limites de Funções
+
 ## Derivadas
 
 - Taxas de Variação
