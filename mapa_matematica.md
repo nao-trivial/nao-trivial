@@ -99,6 +99,7 @@
 - Integração por Partes
 - Integrais de Euler
 - Mudanças de Variáveis
+- Teorema de Fubine
 
 ## Equações Diferenciais
 
