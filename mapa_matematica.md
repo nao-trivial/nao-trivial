@@ -6,6 +6,7 @@
 
 ## Sequências
 
+- Definição
 - Toda sequência monótono limitada converge.
 
 ## Limites
