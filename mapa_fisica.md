@@ -2,6 +2,8 @@
 
 ## Mecânica Clássica
 
+- Tempo Absoluto
+
 ## Mecânica Analítica
 
 - Princípio da Mínima Ação
