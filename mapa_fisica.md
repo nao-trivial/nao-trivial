@@ -19,6 +19,7 @@
 - *1⁰ Lei*
 - 2⁰ Lei
 - Entropia
+- Desordem
 
 ## Eletromagnetismo
 
