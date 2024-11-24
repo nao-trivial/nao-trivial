@@ -41,6 +41,7 @@
 ## Teoria dos Números
 
 - Representação de Base
+- Conjectura de Collatz
 
 ## Topologia
 
