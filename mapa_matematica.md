@@ -29,6 +29,7 @@
 
 - Intervalos Encaixados
 - Intervalo Não-Degenerado
+- Ponto Fixo das Contrações 
 
 # Álgebra
 
@@ -48,6 +49,7 @@
 
 - Definição
 - Toda sequência monótono limitada converge.
+- Bolzano-Weierstrass: Toda sequência limitada de números reais possui uma subsequencia convergente
 
 ## Limites
 
@@ -75,3 +77,4 @@
 
 - Identidades de Green
 - Equação Diferencial Exata
+- Resfriamento de Newton
