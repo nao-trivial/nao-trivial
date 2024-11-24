@@ -52,7 +52,7 @@
 - Princípio da Incerteza
 - Matrizes de Pauli
 
-### Partículas Fundamentais
+## Física de Partículas
 
 - Fermions
 
@@ -60,3 +60,6 @@
 
 - Equação Logística
 - Atrator de Lorenz com Python
+
+## Física Nuclear
+
