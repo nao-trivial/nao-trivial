@@ -17,6 +17,13 @@
 - Intervalos Encaixados
 - Intervalo Não-Degenerado
 
+# Álgebra
+
+## Notação
+
+- Igualdade
+- Diferença
+
 # Cálculo 
 
 ## Sequências
