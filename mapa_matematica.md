@@ -1,6 +1,18 @@
-# Conjuntos
+# Teoria dos Conjuntos
 
+## Princípio da Indução
+
+- Definição
+- Soma de Gauss
+
+## Conjuntos
+
+- Definição
+- Propriedades
+- Introdução
 - 
+
+#
 
 # Topologia
 
