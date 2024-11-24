@@ -8,6 +8,7 @@
 - Equações de Euler-Lagrange
 - Teorema de Noether
 - O Problema da Braquistocrona
+- Pêndulo 
 
 ## Termodinâmica
 
