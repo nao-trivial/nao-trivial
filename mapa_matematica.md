@@ -46,7 +46,7 @@
 ## Topologia
 
 - Intervalos Encaixados
-- Intervalo Não-Degenerado
+- Todo intervalo não-degenerado contém números racionais e irracionais
 - Ponto Fixo das Contrações 
 
 # Álgebra
