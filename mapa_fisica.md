@@ -25,6 +25,7 @@
 
 - Lei de Gauss para o Magnetismo
 - Lei de Gauss para Eletricidade
+- Lei de Ampére
 - Velocidade da Luz no Vácuo
 
 # Física Moderna
