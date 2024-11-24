@@ -82,3 +82,4 @@
 - Identidades de Green
 - Equação Diferencial Exata
 - Resfriamento de Newton
+- Equação de Difusão
