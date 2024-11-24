@@ -19,6 +19,7 @@
 - Subconjunto
 - Conjunto de Galileu 
 - Cortes de Dedekind
+- Método da Diagonal
 
 # Análise
 
