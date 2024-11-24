@@ -18,6 +18,7 @@
 
 ## Eletromagnetismo
 
+- Lei de Gauss
 - Velocidade da Luz no Vácuo
 
 # Física Moderna
