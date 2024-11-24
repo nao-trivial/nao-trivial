@@ -1,6 +1,7 @@
 # Geometria
 
 - Postulados de Euclides
+- A soma dos ângulos internos de um triângulo é 180⁰
 
 # Teoria dos Conjuntos
 
@@ -24,6 +25,11 @@
 
 # Álgebra
 
+## Álgebra LINEAR
+
+- Delta de Kronecker
+- 
+
 ## Notação
 
 - Igualdade
@@ -43,6 +49,14 @@
 ## Derivadas
 
 - Taxas de Variação
+
+## Séries
+
+### Notação de Somatório
+
+- Definição 
+- Propriedades
+- 
 
 ## Integral
 
