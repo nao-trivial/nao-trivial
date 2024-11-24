@@ -2,6 +2,7 @@
 
 - Postulados de Euclides
 - A soma dos ângulos internos de um triângulo é 180⁰
+- Número de Ouro 
 
 # Teoria dos Conjuntos
 
