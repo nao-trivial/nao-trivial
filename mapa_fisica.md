@@ -20,6 +20,7 @@
 - 2⁰ Lei
 - Entropia
 - Desordem
+- Lei de Fourier
 
 ## Eletromagnetismo
 
