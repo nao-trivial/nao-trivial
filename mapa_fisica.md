@@ -10,6 +10,7 @@
 - Equações de Euler-Lagrange
 - Teorema de Noether
 - O Problema da Braquistocrona
+- Parenteses de Poisson
 
 ### Pêndulo 
 
