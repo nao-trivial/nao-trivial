@@ -5,6 +5,7 @@
 ## Mecânica Analítica
 
 - Princípio da Mínima Ação
+- Equações de Euler-Lagrange
 - Teorema de Noether
 
 ## Termodinâmica
