@@ -23,7 +23,8 @@
 
 ## Eletromagnetismo
 
-- Lei de Gauss
+- Lei de Gauss para o Magnetismo
+- Lei de Gauss para Eletricidade
 - Velocidade da Luz no Vácuo
 
 # Física Moderna
