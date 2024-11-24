@@ -29,6 +29,7 @@
 - Seja f e g bijeções de conjuntos próprios em X. Os conjuntos próprios possuem a mesma cardinalidade
 - O produto cartesiano de conjuntos Enumeraveis é enumeravel
 - Se f é sobrejetiva, se o domínio é enumeravel então o contra-dominio também é
+- Se f é injetora, se o contra-dominio é enumeravel então o domínio também é 
 
 ## Números Racionais
 
