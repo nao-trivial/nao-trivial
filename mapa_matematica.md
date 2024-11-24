@@ -48,6 +48,7 @@
 ## Sequências
 
 - Definição
+- Sequências de Cauchy
 - Toda sequência monótono limitada converge.
 - Bolzano-Weierstrass: Toda sequência limitada de números reais possui uma subsequencia convergente
 
