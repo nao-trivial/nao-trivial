@@ -54,6 +54,7 @@
 ## Aritmética
 
 - Papiro de Rhind
+- Divisão por Zero
 
 ## Álgebra Linear
 
