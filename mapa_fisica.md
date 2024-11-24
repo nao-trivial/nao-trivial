@@ -4,6 +4,7 @@
 
 ## Mecânica Analítica
 
+- Princípio da Mínima Ação
 - Teorema de Noether
 
 ## Termodinâmica
@@ -32,7 +33,7 @@
 ### Relatividade Geral
 
 - Geometria Não-Euclidiana
-- Princípio da Mínima Ação
+- Princípio da Equivalência
 - Soma de Einstein
 - Tensor de Riemann
 
