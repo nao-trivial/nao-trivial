@@ -30,3 +30,4 @@
 ## Teoria do Caos
 
 - Equação Logística
+- Atrator de Lorenz com Python
