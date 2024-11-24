@@ -22,7 +22,7 @@
 - Postulados de Einstein
 - *Transformação de Lorentz*
 - Contração do Espaço 
-- Dilatação do ☀️ 
+- Dilatação do Tempo
 
 ### Relatividade Geral
 
