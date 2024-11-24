@@ -6,18 +6,24 @@
 
 # Teoria dos Conjuntos
 
-## Princípio da Indução
-
-- Definição
-- Soma de Gauss
-
 ## Conjuntos
 
 - Definição
 - Propriedades
 - Introdução
 - Subconjunto
-- Conjunto de Galileu 
+
+## Números Naturais
+
+### Princípio da Indução
+
+- *Axiomas de Peano*
+- Definição
+- Soma de Gauss
+
+### Conjuntos Enumeraveis
+
+- Conjunto de Galileu
 - Cortes de Dedekind
 - Método da Diagonal
 - Números Transfinitos
