@@ -62,6 +62,7 @@
 
 - Soma de Riemann
 - Integração por Partes
+- Integrais de Euler
 
 ## Equações Diferenciais
 
