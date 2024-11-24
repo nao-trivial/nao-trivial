@@ -24,10 +24,17 @@
 ### Conjuntos Enumeraveis
 
 - Conjunto de Galileu
-- Cortes de Dedekind
-- Método da Diagonal
-- Números Transfinitos
 - Todo Subconjunto de números naturais é enumeravel
+
+## Números Racionais
+
+- Método da Diagonal
+
+## Números Irracionais
+
+- Números Transfinitos
+- Cortes de Dedekind
+
 
 # Análise
 
