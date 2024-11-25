@@ -45,6 +45,7 @@
 
 ## Números Irracionais
 
+- Raiz de 2 é Irracional
 - Números Transfinitos
 - Cortes de Dedekind
 - Números Reais
