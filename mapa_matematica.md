@@ -39,6 +39,11 @@
 - O produto cartesiano de conjuntos Enumeraveis é enumeravel
 - Se X é um conjunto infinito então existe uma aplicação injetora f dos naturais em X
 
+### Funções
+
+- Função Par
+- Função Ímpar
+
 ## Números Racionais
 
 - Método da Diagonal
