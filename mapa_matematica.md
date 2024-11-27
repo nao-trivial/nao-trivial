@@ -134,3 +134,7 @@
 - Equação Diferencial Exata
 - Resfriamento de Newton
 - Equação de Difusão
+
+## Funções Especiais
+
+- Função Gamma
