@@ -67,6 +67,7 @@
 - Ponto Fixo das Contrações 
 - Teorema da Compactação
 - Teorema da Compacidade em ℝ
+- Função Lipschitziana
 
 # Álgebra
 
