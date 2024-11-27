@@ -65,6 +65,8 @@
 - Todo intervalo não-degenerado contém números racionais e irracionais
 - Um Subconjunto de ℝ é um intervalo se e somente se for um intervalo
 - Ponto Fixo das Contrações 
+- Teorema da Compactação
+- Teorema da Compacidade em ℝ
 
 # Álgebra
 
