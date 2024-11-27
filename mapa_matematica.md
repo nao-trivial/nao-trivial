@@ -43,6 +43,7 @@
 
 - Função Par
 - Função Ímpar
+- função Módulo
 
 ## Números Racionais
 
