@@ -77,6 +77,7 @@
 
 - Equação Logística
 - Atrator de Lorenz com Python
+- Transformação do Padeiro
 
 ## Física Nuclear
 
