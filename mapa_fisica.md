@@ -4,6 +4,7 @@
 
 - Tempo Absoluto
 - Princípio da Relatividade
+- Pêndulo Simples
 - Referencial Inercial
 - Movimento Retilíneo Uniforme
 - Transformação de Galileu 
