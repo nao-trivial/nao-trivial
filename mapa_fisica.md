@@ -69,6 +69,9 @@
 ## Física de Partículas
 
 - Fermions
+- Bósons
+- Quarks
+- Leptons
 
 ## Teoria do Caos
 
