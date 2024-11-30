@@ -78,6 +78,11 @@
 - Equação Logística
 - Atrator de Lorenz com Python
 - Transformação do Padeiro
+- Problema dos 3 Corpos
+
+### Iterações
+
+
 
 ## Física Nuclear
 
