@@ -135,6 +135,7 @@
 - Resfriamento de Newton
 - Equação de Difusão
 
-## Funções Especiais
+### Funções Especiais
 
-- Função Gamma
+- Função Gamma: Introdução
+- Função Gamma: Definição
