@@ -137,6 +137,7 @@
 - Integrais de Euler
 - Mudanças de Variáveis
 - Teorema de Fubine
+- Gaussiana
 
 ## Equações Diferenciais
 
@@ -150,3 +151,4 @@
 - Função Gamma: Introdução
 - Função Gamma: Definição
 - Função Gamma: Forma Integral
+- Gaussiana
