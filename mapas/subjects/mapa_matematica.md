@@ -83,6 +83,16 @@
 - Papiro de Rhind
 - Divisão por Zero
 
+## Álgebra Básica
+
+### Funções Essenciais
+
+- Função Logarítmica
+- Função Par
+- Função Ímpar
+- Função Polinômial: 2⁰ Grau
+
+
 ## Álgebra Linear
 
 - Delta de Kronecker
@@ -139,3 +149,4 @@
 
 - Função Gamma: Introdução
 - Função Gamma: Definição
+- Função Gamma: Forma Integral
