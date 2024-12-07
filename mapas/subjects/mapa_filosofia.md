@@ -1,1 +1,4 @@
 - Mito da Caverna
+- Juramento de Hipócrates
+- Mundo das Ideias 
+- Sobre a Morte - Epicuro
