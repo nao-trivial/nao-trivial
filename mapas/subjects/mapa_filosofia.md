@@ -2,3 +2,4 @@
 - Juramento de Hipócrates
 - Mundo das Ideias 
 - Sobre a Morte - Epicuro
+- Amor Fati
