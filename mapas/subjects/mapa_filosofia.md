@@ -3,3 +3,4 @@
 - Mundo das Ideias 
 - Sobre a Morte - Epicuro
 - Amor Fati
+- Sobre Relacionamentos
