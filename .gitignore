@@ -1,0 +1,77 @@
+# Ignorar arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos gerados por Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.eggs
+*.pyo
+*.pyd
+.Python
+
+# Ignorar arquivos de ambiente virtual
+env/
+venv/
+ENV/
+.VENV/
+*.virtualenv
+
+# Ignorar arquivos de logs e saída
+*.log
+*.out
+*.txt
+*.csv
+
+# Ignorar configurações de IDEs e editores
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar arquivos compilados de LaTeX
+*.aux
+*.log
+*.toc
+*.out
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# Ignorar arquivos de backup
+*~
+*.bak
+*.swp
+*.tmp
+
+# Ignorar dados gerados durante simulações
+data/output/
+data/*.tmp
+data/*.dat
+
+# Ignorar arquivos de bibliotecas Python instaladas localmente
+*.whl
+*.dist-info/
+pip-wheel-metadata/
+
+# Ignorar arquivos binários ou executáveis
+*.exe
+*.dll
+*.so
+*.o
+*.a
+*.dylib
+*.class
+
+# Ignorar arquivos de compilação manual
+build/
+dist/
+*.egg
+*.manifest
+
+# Ignorar configurações específicas do usuário
+*.env
+.codegpt
