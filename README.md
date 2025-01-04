@@ -47,13 +47,17 @@ Conta configurada no Instagram (para uso da API)
 
 1. Clone o repositório:
 
+```plaintext
 git clone https://github.com/seu-usuario/nao-trivial.git
 cd nao-trivial
+```
 
 
 2. Instale as dependências da API:
 
+```plaintext
 pip install -r api/requirements.txt
+```
 
 
 3. Configure as variáveis de ambiente para a API (ex.: chaves de acesso ao Instagram e à plataforma de envio de e-mails).
@@ -61,8 +65,9 @@ pip install -r api/requirements.txt
 
 4. Execute a API:
 
+```plaintext
 python api/server.py
-
+```
 
 5. Para editar ou compilar os scripts em LaTeX, utilize qualquer editor LaTeX como Overleaf ou TeXShop.
 
@@ -71,7 +76,7 @@ python api/server.py
 
 
 
-Contribuindo
+## Contribuindo
 
 Contribuições são bem-vindas! Para colaborar:
 
@@ -80,34 +85,33 @@ Contribuições são bem-vindas! Para colaborar:
 
 2. Crie uma branch com sua feature ou correção:
 
-git checkout -b minha-feature
 
+```plaintext
+git checkout -b minha-feature
+```
 
 3. Faça suas alterações e commit:
 
+```plaintext
 git commit -m "Descrição da alteração"
-
+```
 
 4. Envie para sua branch:
 
+```plaintext
 git push origin minha-feature
-
+```
 
 5. Abra um Pull Request para revisão.
 
 
-
-Licença
-
-Este projeto está licenciado sob a MIT License.
-
-Contato
+## Contato
 
 Para dúvidas ou sugestões, entre em contato:
 
-Instagram: @seu_perfil
+Instagram: @nao_trivial
 
-E-mail: seu_email@example.com
+E-mail: naotrivial8@gmail.com
 
 
 
