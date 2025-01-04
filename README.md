@@ -28,22 +28,22 @@ Este repositório é dedicado ao projeto **Não Trivial**, que explora e divulga
 ```
 
 
-Instalação e Uso
+## Instalação e Uso
 
-Pré-requisitos
+### Pré-requisitos
 
 Certifique-se de ter as seguintes ferramentas instaladas:
 
-Python 3.8+
+- Python 3.8+
 
-pip
+- pip
 
-LaTeX
+- LaTeX
 
 Conta configurada no Instagram (para uso da API)
 
 
-Como usar
+### Como usar
 
 1. Clone o repositório:
 
