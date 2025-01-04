@@ -25,6 +25,8 @@ Este repositório é dedicado ao projeto **Não Trivial**, que explora e divulga
 ├── .gitignore           # Arquivos a serem ignorados pelo Git
 ├── LICENSE              # Licença do repositório
 └── README.md            # Este arquivo
+```
+
 
 Instalação e Uso
 
