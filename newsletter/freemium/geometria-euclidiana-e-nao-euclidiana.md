@@ -70,7 +70,7 @@ Responda este e-mail ou envie uma mensagem no Instagram [@nao_trivial](https://w
 Obrigado por acompanhar o **Não Trivial**! Até a próxima.  
 
 Abraços,  
-[Seu Nome]  
+Hassan Santos
 Criador do Não Trivial  
 
 ---
