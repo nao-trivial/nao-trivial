@@ -82,7 +82,7 @@ No mundo de hoje, repleto de informações conflitantes e apelos emocionais, a l
 Obrigado por acompanhar o **Não Trivial**! Até a próxima.  
 
 Abraços,  
-[Seu Nome]  
+Hassan Santos Primo  
 Criador do Não Trivial  
 
 ---
