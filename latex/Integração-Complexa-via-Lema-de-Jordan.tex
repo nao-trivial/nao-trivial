@@ -1,0 +1,90 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\begin{document}
+
+\section*{Problema: Avaliação de \(\displaystyle \int_{-\infty}^{\infty} \frac{e^{i\lambda x}}{x^2 + a^2} \, dx\)}
+
+\textbf{Dado:} \(\lambda \in \mathbb{R}\), \(a > 0\).
+
+\subsection*{Solução via Análise Complexa}
+
+\paragraph{Passo 1: Contorno no Plano Complexo}
+Considere a função complexa:
+\[
+f(z) = \frac{e^{i\lambda z}}{z^2 + a^2}
+\]
+e o contorno \(C = [-R, R] \cup \Gamma_R\), onde \(\Gamma_R\) é um semicírculo de raio \(R\) no semiplano superior (para \(\lambda > 0\)) ou inferior (para \(\lambda < 0\)).
+
+\paragraph{Passo 2: Singularidades}
+As singularidades de \(f(z)\) ocorrem em:
+\[
+z = \pm ai
+\]
+Apenas \(z = ai\) está no semiplano superior se \(\lambda > 0\), e \(z = -ai\) no semiplano inferior se \(\lambda < 0\).
+
+\paragraph{Passo 3: Aplicação do Lema de Jordan}
+Para \(R \to \infty\), a integral sobre \(\Gamma_R\) tende a zero porque:
+\[
+\left| \int_{\Gamma_R} f(z) \, dz \right| \leq \frac{\pi}{|\lambda|} \cdot \frac{1}{R} \to 0 \quad \text{(Lema de Jordan)}.
+\]
+
+\paragraph{Passo 4: Teorema dos Resíduos}
+A integral sobre \(C\) é dada por:
+\[
+\oint_C f(z) \, dz = 2\pi i \cdot \text{Res}(f, ai) \quad \text{(para \(\lambda > 0\))}.
+\]
+
+\paragraph{Passo 5: Cálculo do Resíduo}
+O resíduo em \(z = ai\) é:
+\[
+\text{Res}(f, ai) = \lim_{z \to ai} (z - ai) \cdot \frac{e^{i\lambda z}}{(z - ai)(z + ai)} = \frac{e^{-\lambda a}}{2ai}.
+\]
+
+\paragraph{Passo 6: Resultado Final}
+Para \(\lambda > 0\):
+\[
+\int_{-\infty}^{\infty} \frac{e^{i\lambda x}}{x^2 + a^2} \, dx = 2\pi i \cdot \frac{e^{-\lambda a}}{2ai} = \frac{\pi}{a} e^{-\lambda a}.
+\]
+Para \(\lambda < 0\), o resultado é análogo, resultando em:
+\[
+\int_{-\infty}^{\infty} \frac{e^{i\lambda x}}{x^2 + a^2} \, dx = \frac{\pi}{a} e^{-|\lambda| a}.
+\]
+
+\subsection*{Análise Assintótica}
+
+A solução \(\displaystyle \frac{\pi}{a} e^{-|\lambda| a}\) revelar comportamentos distintos em regimes assintóticos:
+
+\paragraph{Caso 1: \(|\lambda| a \gg 1\) (Decaimento Exponencial)}
+Para valores grandes de \(|\lambda|\) ou \(a\), a exponencial domina:
+\[
+\int_{-\infty}^{\infty} \frac{e^{i\lambda x}}{x^2 + a^2} \, dx \sim \mathcal{O}\left(\frac{e^{-|\lambda| a}}{a}\right), \quad |\lambda| a \to \infty.
+\]
+Isso reflete o decaimento rápido da integral, consistente com o Lema de Jordan, que exige que \(f(z)\) se comporte bem no infinito.
+
+\paragraph{Caso 2: \(|\lambda| a \ll 1\) (Regime Estático)}
+Quando \(|\lambda| \to 0\) ou \(a \to 0\), a integral aproxima-se do caso estático:
+\[
+\int_{-\infty}^{\infty} \frac{1}{x^2 + a^2} \, dx = \frac{\pi}{a} \quad \text{(Resultado exato para \(\lambda = 0\))}.
+\]
+Neste limite, a exponencial \(e^{i\lambda x}\) torna-se irrelevante, e a integral recupera o valor clássico.
+
+\paragraph{Interpretação Física}
+A dependência em \(e^{-|\lambda| a}\) sugere que:
+\begin{itemize}
+    \item Para \(\lambda \neq 0\), a integral é suprimida exponencialmente pelo fator \(e^{-|\lambda| a}\).
+    \item O parâmetro \(a\) atua como um "comprimento de amortecimento" para oscilações de frequência \(\lambda\).
+\end{itemize}
+
+\subsection*{Conclusão}
+\[
+\boxed{
+\int_{-\infty}^{\infty} \frac{e^{i\lambda x}}{x^2 + a^2} \, dx = \frac{\pi}{a} e^{-|\lambda| a}
+}
+\]
+
+\textbf{Observação:} A análise assintótica confirma que o resultado é consistente com os limites físicos e matemáticos esperados, validando a aplicação do Lema de Jordan e do Teorema dos Resíduos.
+
+\end{document}
