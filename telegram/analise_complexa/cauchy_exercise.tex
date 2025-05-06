@@ -1,0 +1,68 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\title{Exercícios: Condições de Cauchy-Riemann}
+\author{Não Trivial}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Problemas Práticos}
+
+\subsection*{Exercício 1: Função Polinomial}
+Considere \( f(z) = z^2 \).
+\begin{enumerate}
+    \item Escreva \( f(z) \) na forma \( u(x,y) + iv(x,y) \)
+    \item Calcule \( \frac{\partial u}{\partial x} \), \( \frac{\partial u}{\partial y} \), \( \frac{\partial v}{\partial x} \), e \( \frac{\partial v}{\partial y} \)
+    \item Verifique se as condições de Cauchy-Riemann são satisfeitas
+    \item A função é analítica em todo o plano complexo? Justifique
+\end{enumerate}
+
+\subsection*{Exercício 2: Função com Conjugado}
+Analise \( f(z) = \overline{z} \) (conjugado complexo):
+\begin{enumerate}
+    \item Expresse em termos de \( x \) e \( y \)
+    \item Calcule as derivadas parciais necessárias
+    \item Verifique as condições de Cauchy-Riemann
+    \item Em quais pontos (se existirem) a função é diferenciável?
+\end{enumerate}
+
+\subsection*{Exercício 3: Função Mista}
+Estude \( f(z) = z^2 + \overline{z} \):
+\begin{enumerate}
+    \item Separe em parte real e imaginária
+    \item Aplique as condições de Cauchy-Riemann
+    \item Determine as regiões onde a função é analítica
+    \item Compare com o comportamento de \( z^2 \) isoladamente
+\end{enumerate}
+
+\section*{Casos Especiais}
+\subsection*{Exercício 4: Exponencial Complexa}
+Para \( f(z) = e^{\overline{z}} \):
+\begin{enumerate}
+    \item Expanda usando a definição de exponencial complexa
+    \item Verifique as condições de Cauchy-Riemann
+    \item Esta função é inteira? Justifique
+\end{enumerate}
+
+\section*{Critérios de Avaliação}
+\begin{itemize}
+    \item Separação correta em partes real/imag (2 pontos cada)
+    \item Cálculo preciso das derivadas (3 pontos cada)
+    \item Aplicação adequada das condições (3 pontos cada)
+    \item Conclusão lógica sobre analiticidade (2 pontos cada)
+\end{itemize}
+
+\section*{Notas Pedagógicas}
+\begin{itemize}
+    \item As condições de Cauchy-Riemann são \textbf{necessárias mas não suficientes} para analiticidade
+    \item A diferenciabilidade complexa exige também continuidade das derivadas
+    \item Funções que envolvem \( \overline{z} \) geralmente falham nas condições
+    \item A analiticidade tem implicações profundas (integral de Cauchy, séries de potências)
+\end{itemize}
+
+\end{document}
