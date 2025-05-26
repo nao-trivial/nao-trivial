@@ -86,7 +86,7 @@
 
 \begin{frame}{Ponto Fixo: O Equilíbrio Escondido}
   \begin{columns}
-    \column{0.6\textwidth}
+    \column{0.5\textwidth}
     \[
     f(x^*) = x^* \Rightarrow x^* = \frac{b}{1 - a}
     \]
@@ -97,8 +97,8 @@
       \item Analogia com equilíbrios na vida real
     \end{itemize}
     
-    \column{0.4\textwidth}
-    \begin{tikzpicture}[scale=0.8]
+    \column{0.5\textwidth}
+    \begin{tikzpicture}[scale=0.6]
       \draw[->] (0,0) -- (4,0) node[right] {$x$};
       \draw[->] (0,0) -- (0,4) node[above] {$f(x)$};
       \draw[thick,blue] (0,1) -- (4,3) node[right] {$f(x) = 0.5x + 2$};
@@ -120,10 +120,10 @@
     \draw[thick,blue] (0,0) -- (1,0) node[black,above] {Atractor} -- (2.8,0);
     
     \draw[fill=white] (-1,2) circle (2pt) node[below] {$-1$};
-    \draw[fill=white] (1,0) circle (2pt) node[above] {$1$};
+    \draw[fill=white] (1,0) circle (2pt) node[below] {$1$};
     
     \node at (-2,1) {Oscilações Estáveis};
-    \node at (2,1) {Crescimento Explosivo};
+    \node at (3,1) {Crescimento Explosivo};
   \end{tikzpicture}
   
   \vspace{5mm}
