@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Newsletter - Não Trivial | Transformações Complexas</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f7ff;
+      color: #333;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 700px;
+      margin: 20px auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    }
+    h1 {
+      color: #2c6fbb;
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 28px;
+      border-bottom: 2px solid #e6f2ff;
+      padding-bottom: 15px;
+    }
+    h2 {
+      color: #2c6fbb;
+      margin-top: 25px;
+      margin-bottom: 15px;
+      font-size: 22px;
+    }
+    h3 {
+      color: #3a7fc1;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+    p {
+      margin: 10px 0;
+    }
+    .highlight {
+      background-color: #e6f2ff;
+      padding: 15px;
+      border-radius: 8px;
+      margin: 15px 0;
+      border-left: 4px solid #2c6fbb;
+    }
+    .math-box {
+      background-color: #f8f9fa;
+      padding: 15px;
+      border-radius: 8px;
+      margin: 20px 0;
+      text-align: center;
+      font-family: 'Cambria Math', serif;
+      font-size: 18px;
+      overflow-x: auto;
+    }
+    .visualization {
+      background: linear-gradient(to bottom right, #e6f2ff, #f0f7ff);
+      padding: 20px;
+      border-radius: 8px;
+      margin: 25px 0;
+      border: 1px solid #cce0ff;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+      margin: 15px 0;
+    }
+    .grid-item {
+      background-color: white;
+      border-radius: 8px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    .grid-item img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    .signature {
+      text-align: right;
+      font-style: italic;
+      margin-top: 20px;
+      color: #2c6fbb;
+      font-weight: 500;
+    }
+    .btn {
+      display: block;
+      width: 200px;
+      margin: 25px auto;
+      padding: 12px 20px;
+      background: linear-gradient(to right, #2c6fbb, #3a7fc1);
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: 600;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(44, 111, 187, 0.3);
+    }
+    .footer {
+      text-align: center;
+      font-size: 12px;
+      color: #777;
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #eee;
+    }
+    .interaction {
+      background-color: #fff9e6;
+      padding: 20px;
+      border-radius: 8px;
+      margin: 25px 0;
+      border-left: 4px solid #ffcc00;
+    }
+    .key-point {
+      display: flex;
+      align-items: center;
+      margin: 15px 0;
+    }
+    .key-point .icon {
+      width: 30px;
+      height: 30px;
+      background-color: #2c6fbb;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 15px;
+      flex-shrink: 0;
+    }
+    @media (max-width: 600px) {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+      .container {
+        padding: 20px;
+        margin: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Transformações por Funções Elementares no Plano Complexo</h1>
+    
+    <p>Olá <strong>Ricardo Siqueira</strong>,</p>
+    
+    <p>Bem-vindo ao <strong>Não Trivial</strong>, onde exploramos as maravilhas da matemática! Hoje, continuamos nossa jornada pelas variáveis complexas, focando em como funções elementares transformam regiões do plano complexo - um tema essencial para física e engenharia.</p>
+    
+    <div class="highlight">
+      <p>As transformações complexas são fundamentais para resolver problemas de contorno na equação de Laplace, com aplicações em eletrostática, fluxo de fluidos e transferência de calor.</p>
+    </div>
+    
+    <h2>Funções Lineares: Translação e Rotação-Escala</h2>
+    
+    <div class="key-point">
+      <div class="icon">1</div>
+      <div>
+        <h3>Translação: w = z + C</h3>
+        <p>Esta transformação simplesmente desloca cada ponto z por um vetor constante C. A imagem de qualquer região é uma translação exata da original, mantendo forma, tamanho e orientação.</p>
+      </div>
+    </div>
+    
+    <div class="math-box">
+      Se z = x + yi e C = C₁ + C₂i, então w = (x + C₁) + (y + C₂)i
+    </div>
+    
+    <div class="key-point">
+      <div class="icon">2</div>
+      <div>
+        <h3>Rotación e Escala: w = Bz</h3>
+        <p>Quando B = bexp(iφ), esta transformação combina uma rotação de ângulo φ com uma expansão/contração de fator b. Em coordenadas polares:</p>
+      </div>
+    </div>
+    
+    <div class="math-box">
+      Se z = rexp(iθ), então w = (br)exp(i(θ + φ))
+    </div>
+    
+    <div class="visualization">
+      <h3>Visualizando Transformações Lineares</h3>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="https://images.unsplash.com/photo-1632853073412-782bf0279d65?q=80&w=200" alt="Translação">
+          <p>Translação: w = z + C</p>
+        </div>
+        <div class="grid-item">
+          <img src="https://images.unsplash.com/photo-1620646233562-f2a31ad24425?q=80&w=200" alt="Rotação e Escala">
+          <p>Rotação e Escala: w = Bz</p>
+        </div>
+      </div>
+    </div>
+    
+    <h2>A Função Quadrática: w = z²</h2>
+    
+    <p>A transformação quadrática possui propriedades fascinantes:</p>
+    
+    <div class="math-box">
+      w = z² = (x² - y²) + (2xy)i
+    </div>
+    
+    <ul>
+      <li>Transforma o primeiro quadrante (0 ≤ θ ≤ π/2) no semiplano superior (0 ≤ φ ≤ π)</li>
+      <li>Círculos |z| = r₀ transformam-se em círculos |w| = r₀²</li>
+      <li>Hipérboles xy = c transformam-se em retas verticais v = 2c</li>
+      <li>Hipérboles x² - y² = c transformam-se em retas horizontais u = c</li>
+    </ul>
+    
+    <div class="highlight">
+      <p>Importante: w = z² não é biunívoca no disco completo |z| ≤ r₀, pois cada ponto w ≠ 0 tem duas pré-imagens (z e -z).</p>
+    </div>
+    
+    <h2>A Função Inversa: w = 1/z</h2>
+    
+    <p>Esta transformação fundamental pode ser decomposta em duas etapas:</p>
+    
+    <div class="key-point">
+      <div class="icon">1</div>
+      <div>
+        <h3>Inversão em relação ao círculo unitário</h3>
+        <p>z' = z / |z|² (pontos fora do círculo unitário vão para dentro e vice-versa)</p>
+      </div>
+    </div>
+    
+    <div class="key-point">
+      <div class="icon">2</div>
+      <div>
+        <h3>Reflexão no eixo real</h3>
+        <p>w = conjugado(z')</p>
+      </div>
+    </div>
+    
+    <div class="math-box">
+      w = 1/z ⇒ u = x/(x² + y²), v = -y/(x² + y²)
+    </div>
+    
+    <p>Propriedades notáveis:</p>
+    <ul>
+      <li>Transforma círculos e retas em círculos e retas</li>
+      <li>Círculos que não passam pela origem transformam-se em círculos</li>
+      <li>Círculos que passam pela origem transformam-se em retas</li>
+      <li>O semiplano x > c transforma-se em um disco tangente ao eixo u na origem</li>
+    </ul>
+    
+    <div class="visualization">
+      <h3>Transformação w = 1/z</h3>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="https://images.unsplash.com/photo-1622295025941-1a9968b7a5c1?q=80&w=200" alt="Antes da transformação">
+          <p>Região original no plano z</p>
+        </div>
+        <div class="grid-item">
+          <img src="https://images.unsplash.com/photo-1620641787791-7e2e6e3c1e38?q=80&w=200" alt="Depois da transformação">
+          <p>Imagem após w = 1/z</p>
+        </div>
+      </div>
+    </div>
+    
+    <h2>O Ponto no Infinito</h2>
+    
+    <p>A transformação w = 1/z introduz um conceito poderoso:</p>
+    
+    <div class="math-box">
+      z → ∞ corresponde a w → 0
+    </div>
+    
+    <ul>
+      <li>O "ponto no infinito" completa o plano complexo</li>
+      <li>Comportamento de funções no infinito é analisado via w = 1/z</li>
+      <li>Exemplo: w = 4z²/(1 - z²)² transforma z = ∞ em w = 4</li>
+    </ul>
+    
+    <div class="highlight">
+      <p>O ponto no infinito unifica várias transformações e permite estudar comportamentos assintóticos de funções complexas.</p>
+    </div>
+    
+    <div class="interaction">
+      <h3>Provocação Matemática</h3>
+      <p>Se funções elementares como w = z² e w = 1/z podem distorcer dramaticamente o plano complexo, como essas transformações ajudam a resolver problemas físicos como o fluxo ao redor de um cilindro ou o campo elétrico de um capacitor?</p>
+      <p>Responda este e-mail ou envie uma mensagem no Instagram <a href="https://www.instagram.com/nao_trivial" target="_blank" style="color: #2c6fbb; text-decoration: none;">@nao_trivial</a>. Adoraríamos ouvir suas reflexões!</p>
+    </div>
+    
+    <p>As transformações por funções elementares são a base para compreender mapeamentos conformes mais complexos, que exploraremos nas próximas edições. Essas ferramentas mostram como a matemática abstrata encontra aplicações poderosas no mundo físico.</p>
+    
+    <div class="signature">
+      <p>Abraços,<br>
+      Hassan Santos Primo<br>
+      Criador do Não Trivial</p>
+    </div>
+    
+    <a href="https://sites.google.com/view/no-trivial/in%C3%ADcio" target="_blank" class="btn">Explorar Mais Conteúdos</a>
+    
+    <div class="footer">
+      <p>&copy; 2025 Não Trivial - Todos os direitos reservados.</p>
+      <p>Se não desejar receber mais nossas newsletters, <a href="#" style="color: #2c6fbb;">clique aqui</a>.</p>
+    </div>
+  </div>
+</body>
+</html>
